@@ -1,0 +1,298 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+.main{
+    width:100%;
+    background:linear-gradient(to top,rgba(246, 240, 240, 0.5)50%,rgba(243, 239, 239, 0.5)50%),url(1.png);
+    background-position: center;
+    background-size: cover;
+    height:100%;
+    background-attachment: fixed;
+}
+
+.navbar{
+    width:100%;
+    height:75px;
+    margin:auto;
+}
+
+.icon{
+    width:200px;
+    float:left;
+    height:70px;
+}
+
+.logo{
+    font-size:35;
+    color:rgb(27, 12, 157);
+    font-family: Arial;
+    padding-left:5px;
+    padding-top:10px;
+    float:left;
+    width:100%
+}
+
+.menu{
+    width: 100%;
+    float:left;
+    height: 70px;
+    position: fixed;
+    background-color: blue;
+    border-radius: 10px;
+    
+}
+
+ul{
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style:none;
+    margin-left: 82px;
+    margin-top:37px;
+    font-size:14px;
+    
+    padding-right: 10px;
+}
+
+ul li a{
+    text-decoration:none;
+    font-weight:bold;
+    transition: 0.4s ease-in-out;
+    color:white;
+}
+
+ul li a:hover{
+    color: red;
+}
+
+.search{
+    width:230px;
+    float:right;
+    margin-left:270px;
+    margin-top:37px;
+}
+
+.srch{
+    width:200px;
+    height:20px;
+    background:transparent;
+    padding:4px;
+    border:1px solid;
+    float:left;
+    border-radius: 5px;  
+}  
+.info{
+    width:40%;
+    font-size:1.25em;
+    padding:20px;
+    text-align:justify;
+    font-family: 'Times New Roman';
+}
+
+h1{
+    padding:20px;
+    color:red;
+}
+
+.content{
+    height:auto;
+    margin:auto;
+}
+
+span{
+    color:blue;
+}
+
+.mapouter{
+    width:450px;
+    height:380px;
+    position:absolute;
+    top:120px;
+    left:1000px;
+    border-radius:10px;
+    padding:25px;
+}
+.gmap_canvas {
+overflow:hidden;
+background:none!important;
+width:100%;
+height:400px;
+}
+.gmap_iframe {
+height:400px!important;
+}
+/*
+.form h2{
+    width:220px;
+    font-family:sans-serif;
+    text-align:center;
+    font-size:22px;
+    color:darkblue;
+    background-color:rgb(244, 240, 235);
+    border-radius:10px;
+    margin:2px;
+    padding:8px;
+}
+
+.form input{
+    width:240px;
+    height:35px;
+    background:transparent;
+    border-bottom:1px solid black ;
+    border-top:none;
+    border-left: none;
+    border-right:none;
+    color:black;
+    letter-spacing:1px;
+    margin-top: 30px;
+    font-family:sans-serif;
+    padding:5px;
+}
+
+.form .btn{
+    margin-top:10px;
+    width:100px;
+    background-color:rgb(244, 240, 235);
+    border-radius:5px;
+    font-size:18px;
+    cursor:pointer;
+
+}
+
+.form .btn a{
+    text-decoration:none;
+    
+}
+
+.form .btn a:hover{
+    
+    color:blue;
+}
+
+.form input:focus{
+    outline:none;
+}
+
+.form .link{
+    font-family:Arial;
+    font-size:17px;
+    padding-top:20px;
+    text-align:center;
+}
+
+.form .link a{
+    text-decoration:none;
+}
+
+.liw{
+    padding-top:15px;
+    padding-bottom:10px;
+    text-align:center; 
+}
+
+.icon a{
+    text-decoration:none;
+}
+
+.icon i{
+    padding-left:20px;
+    padding-top:5px;
+    font-size:30px;
+    color:rgb(57, 54, 54);
+    
+}
+
+.icon i:hover{
+    color:rgb(77, 77, 195);
+}
+*/
+.img{
+    margin-left:30px;
+}
+/* About-page */
+#staff, #service{
+    text-align:center;
+    color:black;
+    width:97%;
+    height:40px;
+    background-image: linear-gradient(to right, blue , red);
+    margin-top:40px;
+    margin-bottom:50px;
+    color:rgb(224, 218, 218);
+    border-radius: 10px;
+}
+
+.employee{
+    text-align: center;
+    border:2px solid black;
+    width: 40%;
+    margin-left: 30%;
+    background-color: aliceblue;
+    margin-bottom:20px;
+}
+#name{
+   font-weight:bold;
+}
+#dealer-img{
+    max-width:50%
+}
+.work-border{
+    border: 1px solid black;
+    
+}
+
+/* service */
+
+.fuel{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    
+}
+#fuel-img{
+    width:30%;
+    margin-top:40px;
+    margin-left:10%;
+}
+.service-icons{
+    margin:50px;
+}
+.fa-fire-extinguisher{
+    float:right;
+   width:40px;
+}
+
+
+/*Footer*/
+footer{
+    background-color: #ddd;
+}
+#contact{
+    margin-top:10%;
+    border:1px solid black;
+    color:blue;
+    font-style: italic; 
+}
+ 
+footer a{
+    
+    float: right;
+    margin-right:20px;;
+}
+
+.footer-address{
+    margin-left:10px;
+    color:black;
+}
+
+.fa-phone{
+    margin-left:10px;
+    color:black;
+}
